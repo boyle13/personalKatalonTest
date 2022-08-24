@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Samsung Shop" time="66.7" tests="2" failures="0" errors="0">
+   <testsuite name="Samsung Shop" tests="2" failures="0" errors="0" time="66.7" skipped="0" timestamp="2022-05-24 11:38:01" hostname="noobc - DESKTOP-1G40T9E" id="Test Suites/Samsung Shop">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 7.1.1)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\QA\\automation\\katalon\\Eduapp\\Reports\\20220524_113750\\Samsung Shop\\20220524_113750"/>
+         <property name="logFiles" value="C:\\QA\\automation\\katalon\\Eduapp\\Reports\\20220524_113750\\Samsung Shop\\20220524_113750\\appium.log, C:\\QA\\automation\\katalon\\Eduapp\\Reports\\20220524_113750\\Samsung Shop\\20220524_113750\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="noobc - DESKTOP-1G40T9E"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="Android SDK built for x86"/>
+         <property name="hostAddress" value="192.168.1.9"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (Android SDK built for x86 - Android 7.1.1)"/>
+         <property name="deviceOSVersion" value="7.1.1"/>
+      </properties>
+      <testcase name="Test Cases/Detail Phone Galaxy S22" time="37.129" classname="Test Cases/Detail Phone Galaxy S22" status="PASSED">
+         <system-out><![CDATA[2022-05-24 11:38:02 - [TEST_CASE][PASSED] - Test Cases/Detail Phone Galaxy S22: Test Cases/Detail Phone Galaxy S22
+
+2022-05-24 11:38:02 - [TEST_STEP][PASSED] - startApplication("mobileapp/Shop Samsung_v1.0.29030_apkpure.com.apk", false): Started app at: 'C:\QA\automation\katalon\Eduapp\mobileapp\Shop Samsung_v1.0.29030_apkpure.com.apk'
+
+2022-05-24 11:38:03 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-05-24 11:38:04 - [MESSAGE][INFO] - Appium server started on port 56,859
+
+2022-05-24 11:38:23 - [MESSAGE][PASSED] - Started app at: 'C:\QA\automation\katalon\Eduapp\mobileapp\Shop Samsung_v1.0.29030_apkpure.com.apk'
+
+2022-05-24 11:38:23 - [TEST_STEP][PASSED] - tap(findTestObject("DetailPhone/android.widget.TextView - SHOP"), 0): Tapped on element 'Object Repository/DetailPhone/android.widget.TextView - SHOP'
+
+2022-05-24 11:38:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 11:38:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DetailPhone/android.widget.TextView - SHOP'
+
+2022-05-24 11:38:25 - [TEST_STEP][PASSED] - tap(findTestObject("DetailPhone/android.widget.ImageViewPhones"), 0): Tapped on element 'Object Repository/DetailPhone/android.widget.ImageViewPhones'
+
+2022-05-24 11:38:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 11:38:26 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DetailPhone/android.widget.ImageViewPhones'
+
+2022-05-24 11:38:26 - [TEST_STEP][PASSED] - tap(findTestObject("DetailPhone/android.widget.ImageViewGalaxyS"), 0): Tapped on element 'Object Repository/DetailPhone/android.widget.ImageViewGalaxyS'
+
+2022-05-24 11:38:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 11:38:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DetailPhone/android.widget.ImageViewGalaxyS'
+
+2022-05-24 11:38:28 - [TEST_STEP][PASSED] - scrollToText("Galaxy S21", STOP_ON_FAILURE): Scrolling to text 'Galaxy S21' successfully
+
+2022-05-24 11:38:36 - [MESSAGE][PASSED] - Scrolling to text 'Galaxy S21' successfully
+
+2022-05-24 11:38:36 - [TEST_STEP][PASSED] - tap(findTestObject("DetailPhone/android.widget.TextView - Galaxy S22"), 0): Tapped on element 'Object Repository/DetailPhone/android.widget.TextView - Galaxy S22'
+
+2022-05-24 11:38:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 11:38:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DetailPhone/android.widget.TextView - Galaxy S22'
+
+2022-05-24 11:38:37 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-05-24 11:38:39 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Buy Galaxy Watch" time="29.202" classname="Test Cases/Buy Galaxy Watch" status="PASSED">
+         <system-out><![CDATA[2022-05-24 11:38:39 - [TEST_CASE][PASSED] - Test Cases/Buy Galaxy Watch: Test Cases/Buy Galaxy Watch
+
+2022-05-24 11:38:39 - [TEST_STEP][PASSED] - startApplication("mobileapp/Shop Samsung_v1.0.29030_apkpure.com.apk", false): Started app at: 'C:\QA\automation\katalon\Eduapp\mobileapp\Shop Samsung_v1.0.29030_apkpure.com.apk'
+
+2022-05-24 11:38:39 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-05-24 11:38:41 - [MESSAGE][INFO] - Appium server started on port 57,000
+
+2022-05-24 11:38:56 - [MESSAGE][PASSED] - Started app at: 'C:\QA\automation\katalon\Eduapp\mobileapp\Shop Samsung_v1.0.29030_apkpure.com.apk'
+
+2022-05-24 11:38:56 - [TEST_STEP][PASSED] - tap(findTestObject("BuyGalaxy/android.widget.TextSearch"), 0): Tapped on element 'Object Repository/BuyGalaxy/android.widget.TextSearch'
+
+2022-05-24 11:38:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 11:38:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/BuyGalaxy/android.widget.TextSearch'
+
+2022-05-24 11:38:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("BuyGalaxy/android.widget.EditText - Search"), "Galaxy Watch4" + "\n"): Send keys 'Galaxy Watch4\n' on test object 'Object Repository/BuyGalaxy/android.widget.EditText - Search' successfully.
+
+2022-05-24 11:39:01 - [MESSAGE][PASSED] - Send keys 'Galaxy Watch4\n' on test object 'Object Repository/BuyGalaxy/android.widget.EditText - Search' successfully.
+
+2022-05-24 11:39:01 - [TEST_STEP][PASSED] - scrollToText("Galaxy Watch4, 40mm, Silver, Bluetooth", STOP_ON_FAILURE): Scrolling to text 'Galaxy Watch4, 40mm, Silver, Bluetooth' successfully
+
+2022-05-24 11:39:05 - [MESSAGE][PASSED] - Scrolling to text 'Galaxy Watch4, 40mm, Silver, Bluetooth' successfully
+
+2022-05-24 11:39:05 - [TEST_STEP][PASSED] - tap(findTestObject("BuyGalaxy/android.widget.TextView - Galaxy Watch4, 40mm, Silver, Bluetooth"), 0): Tapped on element 'Object Repository/BuyGalaxy/android.widget.TextView - Galaxy Watch4, 40mm, Silver, Bluetooth'
+
+2022-05-24 11:39:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 11:39:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/BuyGalaxy/android.widget.TextView - Galaxy Watch4, 40mm, Silver, Bluetooth'
+
+2022-05-24 11:39:06 - [TEST_STEP][PASSED] - tap(findTestObject("BuyGalaxy/android.widget.TextView - BUY NOW"), 0): Tapped on element 'Object Repository/BuyGalaxy/android.widget.TextView - BUY NOW'
+
+2022-05-24 11:39:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-05-24 11:39:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/BuyGalaxy/android.widget.TextView - BUY NOW']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-05-24 11:38:01 - [TEST_SUITE][PASSED] - Samsung Shop: Test Cases/Buy Galaxy Watch]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

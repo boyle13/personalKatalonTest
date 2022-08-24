@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Samsung Shop,,,,2022-05-24 11:38:01,2022-05-24 11:39:08,1m - 6.700s,PASSED
+,,,,,,,
+Test Cases/Detail Phone Galaxy S22,,,,2022-05-24 11:38:02,2022-05-24 11:38:39,37.129s,PASSED
+"startApplication(""mobileapp/Shop Samsung_v1.0.29030_apkpure.com.apk"", false)",,,,2022-05-24 11:38:02,2022-05-24 11:38:23,20.925s,PASSED
+"tap(findTestObject(""DetailPhone/android.widget.TextView - SHOP""), 0)",,,,2022-05-24 11:38:23,2022-05-24 11:38:25,1.588s,PASSED
+"tap(findTestObject(""DetailPhone/android.widget.ImageViewPhones""), 0)",,,,2022-05-24 11:38:25,2022-05-24 11:38:26,1.718s,PASSED
+"tap(findTestObject(""DetailPhone/android.widget.ImageViewGalaxyS""), 0)",,,,2022-05-24 11:38:26,2022-05-24 11:38:28,1.347s,PASSED
+"scrollToText(""Galaxy S21"", STOP_ON_FAILURE)",,,,2022-05-24 11:38:28,2022-05-24 11:38:36,8.740s,PASSED
+"tap(findTestObject(""DetailPhone/android.widget.TextView - Galaxy S22""), 0)",,,,2022-05-24 11:38:36,2022-05-24 11:38:37,0.374s,PASSED
+closeApplication(),,,,2022-05-24 11:38:37,2022-05-24 11:38:39,1.898s,PASSED
+,,,,,,,
+Test Cases/Buy Galaxy Watch,,,,2022-05-24 11:38:39,2022-05-24 11:39:08,29.202s,PASSED
+"startApplication(""mobileapp/Shop Samsung_v1.0.29030_apkpure.com.apk"", false)",,,,2022-05-24 11:38:39,2022-05-24 11:38:56,17.204s,PASSED
+"tap(findTestObject(""BuyGalaxy/android.widget.TextSearch""), 0)",,,,2022-05-24 11:38:56,2022-05-24 11:38:58,1.962s,PASSED
+"sendKeys(findTestObject(""BuyGalaxy/android.widget.EditText - Search""), ""Galaxy Watch4"" + ""\n"")",,,,2022-05-24 11:38:58,2022-05-24 11:39:01,2.674s,PASSED
+"scrollToText(""Galaxy Watch4, 40mm, Silver, Bluetooth"", STOP_ON_FAILURE)",,,,2022-05-24 11:39:01,2022-05-24 11:39:05,4.253s,PASSED
+"tap(findTestObject(""BuyGalaxy/android.widget.TextView - Galaxy Watch4, 40mm, Silver, Bluetooth""), 0)",,,,2022-05-24 11:39:05,2022-05-24 11:39:06,0.330s,PASSED
+"tap(findTestObject(""BuyGalaxy/android.widget.TextView - BUY NOW""), 0)",,,,2022-05-24 11:39:06,2022-05-24 11:39:08,2.318s,PASSED
